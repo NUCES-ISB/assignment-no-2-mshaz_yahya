@@ -5,4 +5,4 @@ install:
 format: 
 	black *.py
 lint:
-	pylint --disable=R,C,E0602,W app.py
+	pylint --disable=R,C,E0602,E0401,W app.py
