@@ -5,4 +5,4 @@ install:
 format: 
 	black *.py
 lint:
-	pylint --disable=R,C,E0602,W polymath.py
+	pylint --disable=R,C,E0602,W app.py
