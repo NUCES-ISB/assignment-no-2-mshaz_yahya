@@ -17,9 +17,7 @@ jobs:
     - name: lint
       run: |
         make lint
-    - name: Docker run
-      run: docker build -t app.py .
-        
+
     
         
     
