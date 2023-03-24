@@ -153,3 +153,5 @@ def hello():
     STOCK.seek(0)
     plot_url = base64.b64encode(STOCK.getvalue()).decode('utf8')
     return render_template("plot.html", plot_url=plot_url)
+if __name__ == '__main__':
+   app.run(host ='0.0.0.0', debug = True)
