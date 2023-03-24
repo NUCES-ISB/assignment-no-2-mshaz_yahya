@@ -2,8 +2,7 @@ on:
   push:
     branches: [ Momin ]
   
-  pull_request:
-    branches: [ main ]
+
   
     
 jobs:
